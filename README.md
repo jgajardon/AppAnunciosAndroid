@@ -4,11 +4,11 @@ Aplicacion nativa desarrollada con Android Studio, conectada a un WebService en 
 
 ### Se puede realizar las siguientes operaciones en la aplicación:
 
-*  -Insertar usuario
-*  -Registrar producto
-*  -Validar publicación de usuario
-*  -Buscar productos
-*  -Listar productos
+*  Insertar usuario
+*  Registrar producto
+*  Validar publicación de usuario
+*  Buscar productos
+*  Listar productos
 
 
 Pueden descargar el repositorio o clonarlo, luego lo ejecutan con su Android Studio(API 21)
