@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PublicarActivity"
+    android:background="@drawable/fondo">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ingre_tit"
+                android:id="@+id/textView8"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp"
+                android:textColor="@android:color/background_light"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tit_prod"
+                android:layout_below="@+id/textView8"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/background_light"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ingre_prec"
+                android:id="@+id/textView9"
+                android:layout_below="@+id/tit_prod"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp"
+                android:textColor="@android:color/background_light"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/prec_prod"
+                android:layout_below="@+id/textView9"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp"
+                android:textColor="@android:color/background_light"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ingre_descripcion"
+                android:id="@+id/textView10"
+                android:layout_below="@+id/prec_prod"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp"
+                android:textColor="@android:color/background_light"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/desc_prod"
+                android:layout_below="@+id/textView10"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp"
+                android:textColor="@android:color/background_light"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ingre_rut"
+                android:id="@+id/tvrut"
+                android:layout_below="@+id/desc_prod"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp"
+                android:textColor="@android:color/background_light"/>
+
+            <EditText
+                android:textColor="@android:color/background_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/rut"
+                android:layout_below="@+id/tvrut"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp" />
+
+            <TextView
+                android:textColor="@android:color/background_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ingre_clave"
+                android:id="@+id/tv_clave"
+                android:layout_below="@+id/rut"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp" />
+
+            <EditText
+                android:textColor="@android:color/background_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/clave"
+                android:layout_below="@+id/tv_clave"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp" />
+
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/publ"
+                android:id="@+id/btn_PublicarDatos"
+                android:layout_below="@+id/clave"
+                android:layout_marginTop="48dp"
+                android:layout_alignParentEnd="true"
+                android:background="@android:color/holo_green_light" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

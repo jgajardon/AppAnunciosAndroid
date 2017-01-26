@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AnunciosApp</string>
+    <string name="ingre_rut">Ingrese su rut :</string>
+    <string name="ingre_nom">Ingrese su nombre :</string>
+    <string name="ingre_ape">Ingrese sus apellidos :</string>
+    <string name="ingre_email">Ingrese su email :</string>
+    <string name="ingre_fono">Ingrese su fono :</string>
+    <string name="ingre_clave">Ingrese su clave :</string>
+    <string name="ingre_tit">Ingrese titulo del producto :</string>
+    <string name="ingre_prec">Ingrese precio del producto :</string>
+    <string name="ingre_descripcion">Ingrese descripcion del producto :</string>
+    <string name="reg">Registrarse</string>
+    <string name="publ">Publicar</string>
+    <string name="reg_usuario">Registro de usuario</string>
+    <string name="pclave">Ingrese palabra clave :</string>
+    <string name="buscar">Buscar</string>
+    <string name="regi_btn">Registrar Usuario</string>
+    <string name="pub_btn">Publicar producto</string>
+    <string name="bsc_btn">Buscar producto</string>
+    <string name="eli_btn">Eliminar producto</string>
+    <string name="list_btn">Listar Anuncios</string>
+    <string name="qds">Menu</string>
+    <string name="val">Validar</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="dtanun">Detalle Anuncio</string>
+
+</resources>
