@@ -15,5 +15,7 @@ Pueden descargar el repositorio o clonarlo, luego lo ejecutan con su Android Stu
 
 La App se encuentra en funcionamiento, Web Service funcionando de manera remota en un hosting particular.
 
+Proyecto Académico.
+
 Saludos!
 
